@@ -54,9 +54,10 @@ classDiagram
 
     Person <|-- Student
     Person <|-- Advisor
-    Advisor "1" *-- "many" Student
-    Form1 --> Advisor
-    Form1 --> Student
+    Person <|-- Form1
+    Advisor "1" --> "*" Student : Advises
+    Form1 "1" --> "*" Student : Manages
+    Form1 "1" --> "*" Advisor : Handles
 ```
 
 ## คุณสมบัติ (Features)
