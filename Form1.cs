@@ -15,6 +15,8 @@ namespace Quiz3
         {
             advisors.Add(new Advisor("Dr.Katy", "Computer Science"));
             advisors.Add(new Advisor("Dr.Binne", "ECON"));
+            advisors.Add(new Advisor("Dr.Katy", "Computer Science"));
+            advisors.Add(new Advisor("Dr.Binne", "ECON"));
 
             cmbAdvisor.Items.AddRange(advisors.Select(a => a.Name).ToArray());
         }
