@@ -13,3 +13,4 @@
 ✅ **Polymorphism**: ใช้ `getInfo()` ให้ทุกคลาสแสดงข้อมูลในรูปแบบเดียวกัน  
 ✅ **Inheritance**: (หากมีการเพิ่มคลาสย่อย สามารถใช้การสืบทอดคลาสได้)
  
+![image](https://github.com/user-attachments/assets/ef32e88a-e2fd-4ba8-a3ef-1b80e5472670)
