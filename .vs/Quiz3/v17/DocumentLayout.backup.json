@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\advisor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|c:\\object-oriented programing\\quiz3\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D8CEBFE-8A60-464D-BC4E-011CA6069B53}|Quiz3.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "person.cs",
               "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\person.cs",
               "RelativeDocumentMoniker": "person.cs",
@@ -56,33 +60,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Form1.Designer.cs",
-              "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.Designer.cs",
-              "RelativeToolTip": "Form1.Designer.cs",
-              "ViewState": "AgIAAGcBAAAAAAAAAAAYwDYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:40:27.627Z",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-03-11T08:43:57.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T04:42:07.715Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Studen.cs",
               "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Studen.cs",
               "RelativeDocumentMoniker": "Studen.cs",
               "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Studen.cs",
               "RelativeToolTip": "Studen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T04:44:21.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "advisor.cs",
               "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\advisor.cs",
               "RelativeDocumentMoniker": "advisor.cs",
@@ -95,28 +111,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T04:31:38.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 6,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\OBJECT-ORIENTED PROGRAMING\\Quiz3\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T04:42:07.715Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-11T04:40:27.627Z",
+              "EditorCaption": ""
             }
           ]
         }

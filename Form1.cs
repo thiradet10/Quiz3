@@ -28,10 +28,10 @@ namespace Quiz3
 
         private void btn_addStd_Click(object sender, EventArgs e)
         {
-            string id = tb_id.Text;
-            string name = tb_name.Text;
-            string major = tb_department.Text;
-            double grade = double.Parse(tb_grade.Text);
+            string id = tbId.Text;
+            string name = tbName.Text;
+            string major = tbDepartment.Text;
+            double grade = double.Parse(tbGrade.Text);
             string advisorName = cmbAdvisor.SelectedItem?.ToString();
 
             Advisor advisor = advisors.FirstOrDefault(a => a.Name == advisorName);
@@ -45,11 +45,11 @@ namespace Quiz3
             students.Add(student);
             advisor.AddStudent(student);
 
-            lb_id.Text = id;
-            lb_name.Text = name;
-            lb_major.Text = major;
-            lb_grade.Text = grade.ToString();
-            lb_advisor.Text = advisor.Name;
+            lbId.Text = id;
+            lbName.Text = name;
+            lbMajor.Text = major;
+            lbGrade.Text = grade.ToString();
+            lbAdvisor.Text = advisor.Name;
 
             MessageBox.Show("Student added successfully!");
         }

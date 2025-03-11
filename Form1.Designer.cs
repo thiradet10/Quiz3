@@ -37,22 +37,22 @@ namespace Quiz3
             Major = new Label();
             label4 = new Label();
             label5 = new Label();
-            tb_id = new TextBox();
-            tb_name = new TextBox();
-            tb_department = new TextBox();
-            tb_grade = new TextBox();
-            btn_addStd = new Button();
-            btn_showstd = new Button();
+            tbId = new TextBox();
+            tbName = new TextBox();
+            tbDepartment = new TextBox();
+            tbGrade = new TextBox();
+            btnAddStd = new Button();
+            btnShowstd = new Button();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
-            lb_id = new Label();
-            lb_name = new Label();
-            lb_major = new Label();
-            lb_grade = new Label();
-            lb_advisor = new Label();
+            lbId = new Label();
+            lbName = new Label();
+            lbMajor = new Label();
+            lbGrade = new Label();
+            lbAdvisor = new Label();
             cmbAdvisor = new ComboBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
@@ -62,6 +62,7 @@ namespace Quiz3
             label11 = new Label();
             button1 = new Button();
             groupBox3 = new GroupBox();
+            listBox1 = new ListBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -112,53 +113,53 @@ namespace Quiz3
             label5.TabIndex = 4;
             label5.Text = "Advisor";
             // 
-            // tb_id
+            // tbId
             // 
-            tb_id.Location = new Point(131, 114);
-            tb_id.Name = "tb_id";
-            tb_id.Size = new Size(151, 27);
-            tb_id.TabIndex = 5;
+            tbId.Location = new Point(131, 114);
+            tbId.Name = "tbId";
+            tbId.Size = new Size(151, 27);
+            tbId.TabIndex = 5;
             // 
-            // tb_name
+            // tbName
             // 
-            tb_name.Location = new Point(131, 75);
-            tb_name.Name = "tb_name";
-            tb_name.Size = new Size(151, 27);
-            tb_name.TabIndex = 6;
+            tbName.Location = new Point(131, 75);
+            tbName.Name = "tbName";
+            tbName.Size = new Size(151, 27);
+            tbName.TabIndex = 6;
             // 
-            // tb_department
+            // tbDepartment
             // 
-            tb_department.Location = new Point(131, 160);
-            tb_department.Name = "tb_department";
-            tb_department.Size = new Size(151, 27);
-            tb_department.TabIndex = 7;
+            tbDepartment.Location = new Point(131, 160);
+            tbDepartment.Name = "tbDepartment";
+            tbDepartment.Size = new Size(151, 27);
+            tbDepartment.TabIndex = 7;
             // 
-            // tb_grade
+            // tbGrade
             // 
-            tb_grade.Location = new Point(131, 203);
-            tb_grade.Name = "tb_grade";
-            tb_grade.Size = new Size(151, 27);
-            tb_grade.TabIndex = 8;
+            tbGrade.Location = new Point(131, 203);
+            tbGrade.Name = "tbGrade";
+            tbGrade.Size = new Size(151, 27);
+            tbGrade.TabIndex = 8;
             // 
-            // btn_addStd
+            // btnAddStd
             // 
-            btn_addStd.Location = new Point(75, 251);
-            btn_addStd.Name = "btn_addStd";
-            btn_addStd.Size = new Size(217, 35);
-            btn_addStd.TabIndex = 10;
-            btn_addStd.Text = "AddDataStuden";
-            btn_addStd.UseVisualStyleBackColor = true;
-            btn_addStd.Click += btn_addStd_Click;
+            btnAddStd.Location = new Point(75, 251);
+            btnAddStd.Name = "btnAddStd";
+            btnAddStd.Size = new Size(217, 35);
+            btnAddStd.TabIndex = 10;
+            btnAddStd.Text = "AddDataStuden";
+            btnAddStd.UseVisualStyleBackColor = true;
+            btnAddStd.Click += btn_addStd_Click;
             // 
-            // btn_showstd
+            // btnShowstd
             // 
-            btn_showstd.Location = new Point(429, 278);
-            btn_showstd.Name = "btn_showstd";
-            btn_showstd.Size = new Size(243, 215);
-            btn_showstd.TabIndex = 11;
-            btn_showstd.Text = "ShowTopStuden";
-            btn_showstd.UseVisualStyleBackColor = true;
-            btn_showstd.Click += btn_showstd_Click;
+            btnShowstd.Location = new Point(429, 278);
+            btnShowstd.Name = "btnShowstd";
+            btnShowstd.Size = new Size(243, 227);
+            btnShowstd.TabIndex = 11;
+            btnShowstd.Text = "ShowTopStuden";
+            btnShowstd.UseVisualStyleBackColor = true;
+            btnShowstd.Click += btn_showstd_Click;
             // 
             // label6
             // 
@@ -205,50 +206,50 @@ namespace Quiz3
             label10.TabIndex = 18;
             label10.Text = "Advisor";
             // 
-            // lb_id
+            // lbId
             // 
-            lb_id.AutoSize = true;
-            lb_id.Location = new Point(146, 55);
-            lb_id.Name = "lb_id";
-            lb_id.Size = new Size(58, 20);
-            lb_id.TabIndex = 19;
-            lb_id.Text = "label11";
+            lbId.AutoSize = true;
+            lbId.Location = new Point(146, 55);
+            lbId.Name = "lbId";
+            lbId.Size = new Size(58, 20);
+            lbId.TabIndex = 19;
+            lbId.Text = "label11";
             // 
-            // lb_name
+            // lbName
             // 
-            lb_name.AutoSize = true;
-            lb_name.Location = new Point(146, 87);
-            lb_name.Name = "lb_name";
-            lb_name.Size = new Size(58, 20);
-            lb_name.TabIndex = 20;
-            lb_name.Text = "label12";
+            lbName.AutoSize = true;
+            lbName.Location = new Point(146, 87);
+            lbName.Name = "lbName";
+            lbName.Size = new Size(58, 20);
+            lbName.TabIndex = 20;
+            lbName.Text = "label12";
             // 
-            // lb_major
+            // lbMajor
             // 
-            lb_major.AutoSize = true;
-            lb_major.Location = new Point(146, 126);
-            lb_major.Name = "lb_major";
-            lb_major.Size = new Size(58, 20);
-            lb_major.TabIndex = 21;
-            lb_major.Text = "label13";
+            lbMajor.AutoSize = true;
+            lbMajor.Location = new Point(146, 126);
+            lbMajor.Name = "lbMajor";
+            lbMajor.Size = new Size(58, 20);
+            lbMajor.TabIndex = 21;
+            lbMajor.Text = "label13";
             // 
-            // lb_grade
+            // lbGrade
             // 
-            lb_grade.AutoSize = true;
-            lb_grade.Location = new Point(146, 160);
-            lb_grade.Name = "lb_grade";
-            lb_grade.Size = new Size(58, 20);
-            lb_grade.TabIndex = 22;
-            lb_grade.Text = "label14";
+            lbGrade.AutoSize = true;
+            lbGrade.Location = new Point(146, 160);
+            lbGrade.Name = "lbGrade";
+            lbGrade.Size = new Size(58, 20);
+            lbGrade.TabIndex = 22;
+            lbGrade.Text = "label14";
             // 
-            // lb_advisor
+            // lbAdvisor
             // 
-            lb_advisor.AutoSize = true;
-            lb_advisor.Location = new Point(146, 192);
-            lb_advisor.Name = "lb_advisor";
-            lb_advisor.Size = new Size(58, 20);
-            lb_advisor.TabIndex = 23;
-            lb_advisor.Text = "label15";
+            lbAdvisor.AutoSize = true;
+            lbAdvisor.Location = new Point(146, 192);
+            lbAdvisor.Name = "lbAdvisor";
+            lbAdvisor.Size = new Size(58, 20);
+            lbAdvisor.TabIndex = 23;
+            lbAdvisor.Text = "label15";
             // 
             // cmbAdvisor
             // 
@@ -260,11 +261,11 @@ namespace Quiz3
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(lb_advisor);
-            groupBox1.Controls.Add(lb_grade);
-            groupBox1.Controls.Add(lb_major);
-            groupBox1.Controls.Add(lb_name);
-            groupBox1.Controls.Add(lb_id);
+            groupBox1.Controls.Add(lbAdvisor);
+            groupBox1.Controls.Add(lbGrade);
+            groupBox1.Controls.Add(lbMajor);
+            groupBox1.Controls.Add(lbName);
+            groupBox1.Controls.Add(lbId);
             groupBox1.Controls.Add(label10);
             groupBox1.Controls.Add(label9);
             groupBox1.Controls.Add(label8);
@@ -280,11 +281,11 @@ namespace Quiz3
             // groupBox2
             // 
             groupBox2.Controls.Add(cmbAdvisor);
-            groupBox2.Controls.Add(btn_addStd);
-            groupBox2.Controls.Add(tb_grade);
-            groupBox2.Controls.Add(tb_name);
-            groupBox2.Controls.Add(tb_department);
-            groupBox2.Controls.Add(tb_id);
+            groupBox2.Controls.Add(btnAddStd);
+            groupBox2.Controls.Add(tbGrade);
+            groupBox2.Controls.Add(tbName);
+            groupBox2.Controls.Add(tbDepartment);
+            groupBox2.Controls.Add(tbId);
             groupBox2.Controls.Add(label5);
             groupBox2.Controls.Add(label4);
             groupBox2.Controls.Add(Major);
@@ -299,14 +300,14 @@ namespace Quiz3
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(134, 15);
+            textBox1.Location = new Point(134, 45);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(151, 27);
             textBox1.TabIndex = 28;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(134, 57);
+            textBox2.Location = new Point(134, 80);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(151, 27);
             textBox2.TabIndex = 29;
@@ -314,7 +315,7 @@ namespace Quiz3
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(31, 22);
+            label3.Location = new Point(27, 45);
             label3.Name = "label3";
             label3.Size = new Size(101, 20);
             label3.TabIndex = 30;
@@ -323,7 +324,7 @@ namespace Quiz3
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(14, 57);
+            label11.Location = new Point(14, 83);
             label11.Name = "label11";
             label11.Size = new Size(114, 20);
             label11.TabIndex = 31;
@@ -331,7 +332,7 @@ namespace Quiz3
             // 
             // button1
             // 
-            button1.Location = new Point(78, 99);
+            button1.Location = new Point(78, 118);
             button1.Name = "button1";
             button1.Size = new Size(217, 35);
             button1.TabIndex = 32;
@@ -347,20 +348,29 @@ namespace Quiz3
             groupBox3.Controls.Add(textBox1);
             groupBox3.Location = new Point(65, 340);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(351, 153);
+            groupBox3.Size = new Size(351, 165);
             groupBox3.TabIndex = 33;
             groupBox3.TabStop = false;
             groupBox3.Text = "DataTeacher";
+            // 
+            // listBox1
+            // 
+            listBox1.FormattingEnabled = true;
+            listBox1.Location = new Point(692, 41);
+            listBox1.Name = "listBox1";
+            listBox1.Size = new Size(150, 464);
+            listBox1.TabIndex = 34;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1090, 574);
+            Controls.Add(listBox1);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
-            Controls.Add(btn_showstd);
+            Controls.Add(btnShowstd);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -380,22 +390,22 @@ namespace Quiz3
         private Label Major;
         private Label label4;
         private Label label5;
-        private TextBox tb_id;
-        private TextBox tb_name;
-        private TextBox tb_department;
-        private TextBox tb_grade;
-        private Button btn_addStd;
-        private Button btn_showstd;
+        private TextBox tbId;
+        private TextBox tbName;
+        private TextBox tbDepartment;
+        private TextBox tbGrade;
+        private Button btnAddStd;
+        private Button btnShowstd;
         private Label label6;
         private Label label7;
         private Label label8;
         private Label label9;
         private Label label10;
-        private Label lb_id;
-        private Label lb_name;
-        private Label lb_major;
-        private Label lb_grade;
-        private Label lb_advisor;
+        private Label lbId;
+        private Label lbName;
+        private Label lbMajor;
+        private Label lbGrade;
+        private Label lbAdvisor;
         private ComboBox cmbAdvisor;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
@@ -405,5 +415,6 @@ namespace Quiz3
         private Label label11;
         private Button button1;
         private GroupBox groupBox3;
+        private ListBox listBox1;
     }
 }
