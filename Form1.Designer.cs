@@ -32,6 +32,7 @@ namespace Quiz3
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             label2 = new Label();
             Major = new Label();
@@ -56,13 +57,13 @@ namespace Quiz3
             cmbAdvisor = new ComboBox();
             groupBox1 = new GroupBox();
             groupBox2 = new GroupBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            tbNt = new TextBox();
+            tbBt = new TextBox();
             label3 = new Label();
             label11 = new Label();
             button1 = new Button();
             groupBox3 = new GroupBox();
-            listBox1 = new ListBox();
+            lstStuden = new ListBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -153,13 +154,15 @@ namespace Quiz3
             // 
             // btnShowstd
             // 
+            btnShowstd.BackgroundImage = (System.Drawing.Image)resources.GetObject("btnShowstd.BackgroundImage");
+            btnShowstd.BackgroundImageLayout = ImageLayout.Stretch;
             btnShowstd.Location = new Point(429, 278);
             btnShowstd.Name = "btnShowstd";
             btnShowstd.Size = new Size(243, 227);
             btnShowstd.TabIndex = 11;
             btnShowstd.Text = "ShowTopStuden";
             btnShowstd.UseVisualStyleBackColor = true;
-            btnShowstd.Click += btn_showstd_Click;
+            btnShowstd.Click += btnShowstd_Click;
             // 
             // label6
             // 
@@ -258,9 +261,11 @@ namespace Quiz3
             cmbAdvisor.Name = "cmbAdvisor";
             cmbAdvisor.Size = new Size(151, 28);
             cmbAdvisor.TabIndex = 25;
+            cmbAdvisor.SelectedIndexChanged += cmbAdvisor_SelectedIndexChanged;
             // 
             // groupBox1
             // 
+            groupBox1.BackgroundImage = (System.Drawing.Image)resources.GetObject("groupBox1.BackgroundImage");
             groupBox1.Controls.Add(lbAdvisor);
             groupBox1.Controls.Add(lbGrade);
             groupBox1.Controls.Add(lbMajor);
@@ -271,15 +276,17 @@ namespace Quiz3
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(label6);
-            groupBox1.Location = new Point(429, 28);
+            groupBox1.Location = new Point(429, 15);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(243, 235);
+            groupBox1.Size = new Size(243, 248);
             groupBox1.TabIndex = 26;
             groupBox1.TabStop = false;
             groupBox1.Text = "ข้อมูลนักศึกษา";
             // 
             // groupBox2
             // 
+            groupBox2.BackgroundImage = (System.Drawing.Image)resources.GetObject("groupBox2.BackgroundImage");
+            groupBox2.BackgroundImageLayout = ImageLayout.Stretch;
             groupBox2.Controls.Add(cmbAdvisor);
             groupBox2.Controls.Add(btnAddStd);
             groupBox2.Controls.Add(tbGrade);
@@ -296,21 +303,21 @@ namespace Quiz3
             groupBox2.Size = new Size(345, 318);
             groupBox2.TabIndex = 27;
             groupBox2.TabStop = false;
-            groupBox2.Text = "DataStuden";
+            groupBox2.Text = "เพิ่มนักศึกษา";
             // 
-            // textBox1
+            // tbNt
             // 
-            textBox1.Location = new Point(134, 45);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(151, 27);
-            textBox1.TabIndex = 28;
+            tbNt.Location = new Point(134, 45);
+            tbNt.Name = "tbNt";
+            tbNt.Size = new Size(151, 27);
+            tbNt.TabIndex = 28;
             // 
-            // textBox2
+            // tbBt
             // 
-            textBox2.Location = new Point(134, 80);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(151, 27);
-            textBox2.TabIndex = 29;
+            tbBt.Location = new Point(134, 80);
+            tbBt.Name = "tbBt";
+            tbBt.Size = new Size(151, 27);
+            tbBt.TabIndex = 29;
             // 
             // label3
             // 
@@ -338,35 +345,40 @@ namespace Quiz3
             button1.TabIndex = 32;
             button1.Text = "AddDataTeacher";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // groupBox3
             // 
+            groupBox3.BackgroundImage = (System.Drawing.Image)resources.GetObject("groupBox3.BackgroundImage");
+            groupBox3.BackgroundImageLayout = ImageLayout.None;
             groupBox3.Controls.Add(button1);
             groupBox3.Controls.Add(label11);
             groupBox3.Controls.Add(label3);
-            groupBox3.Controls.Add(textBox2);
-            groupBox3.Controls.Add(textBox1);
+            groupBox3.Controls.Add(tbBt);
+            groupBox3.Controls.Add(tbNt);
             groupBox3.Location = new Point(65, 340);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(351, 165);
             groupBox3.TabIndex = 33;
             groupBox3.TabStop = false;
-            groupBox3.Text = "DataTeacher";
+            groupBox3.Text = "เพิ่มอาจารย์";
             // 
-            // listBox1
+            // lstStuden
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(692, 41);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(150, 464);
-            listBox1.TabIndex = 34;
+            lstStuden.BackColor = SystemColors.Info;
+            lstStuden.FormattingEnabled = true;
+            lstStuden.Location = new Point(692, 21);
+            lstStuden.Name = "lstStuden";
+            lstStuden.Size = new Size(150, 484);
+            lstStuden.TabIndex = 34;
+            lstStuden.SelectedIndexChanged += lstStuden_SelectedIndexChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1090, 574);
-            Controls.Add(listBox1);
+            Controls.Add(lstStuden);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -409,12 +421,12 @@ namespace Quiz3
         private ComboBox cmbAdvisor;
         private GroupBox groupBox1;
         private GroupBox groupBox2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox tbNt;
+        private TextBox tbBt;
         private Label label3;
         private Label label11;
         private Button button1;
         private GroupBox groupBox3;
-        private ListBox listBox1;
+        private ListBox lstStuden;
     }
 }
