@@ -15,9 +15,7 @@
  
 ![image](https://github.com/user-attachments/assets/ef32e88a-e2fd-4ba8-a3ef-1b80e5472670)
 
-# Student-Advisor Management System
 
-This project is a simple Student-Advisor management system using Object-Oriented Programming (OOP) principles such as Encapsulation, Abstraction, Polymorphism, and Inheritance.
 
 ## Class Diagram
 
