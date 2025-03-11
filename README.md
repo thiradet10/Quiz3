@@ -61,22 +61,11 @@ classDiagram
     Form1 --> Student
 ```
 
-## Features
-- Add and display student details
-- Assign advisors to students
-- Show the top student based on grades
-- Manage advisor list dynamically
+## คุณสมบัติ (Features)
+- เพิ่มและแสดงรายละเอียดของนักศึกษา
+- กำหนดอาจารย์ที่ปรึกษาให้กับนักศึกษา
+- แสดงนักศึกษาที่มีเกรดสูงสุด
+- จัดการรายชื่ออาจารย์ที่ปรึกษาแบบไดนามิก
 
-## Getting Started
-1. Clone the repository
-2. Open the project in Visual Studio
-3. Run the application and manage student-advisor relationships
 
-## Technologies Used
-- C#
-- Windows Forms (WinForms)
-- Object-Oriented Programming (OOP)
-
-## License
-This project is licensed under the MIT License.
 
