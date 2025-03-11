@@ -68,10 +68,12 @@ classDiagram
     Form1 "1" --> "*" Advisor : Handles
 ```
 
-## สรุป
-✅ ใช้ OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
-✅ มี Class Diagram ที่แสดงโครงสร้างและความสัมพันธ์ของคลาส
-✅ สามารถจัดการข้อมูล นักศึกษาและอาจารย์ที่ปรึกษา ได้ผ่าน UI
+## สรุป  
+✅ ใช้ OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)  
+
+✅ มี Class Diagram ที่แสดงโครงสร้างและความสัมพันธ์ของคลาส  
+
+✅ สามารถจัดการข้อมูล นักศึกษาและอาจารย์ที่ปรึกษา ได้ผ่าน UI  
 
 
 
